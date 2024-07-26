@@ -1,0 +1,76 @@
+@media screen and (max-width: 576px) {
+
+  /* Universal styles */
+  header,
+  main,
+  footer {
+    padding: 30px 5%;
+  }
+
+  /* header & nav */
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-logo {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .nav-list .nav-link {
+    font-size: 1.5rem;
+  }
+
+  /* hero section styles */
+  .hero {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .hero-contents-column {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  /* Men & Women Jacket Section */
+  .section-title {
+    text-align: center;
+  }
+
+  .jacket-cards-container {
+    flex-direction: column;
+  }
+
+  /* Services Section styles */
+  .services {
+    flex-direction: column-reverse;
+  }
+
+  .service-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-card-column {
+    width: 100%;
+  }
+
+  .services-img-column {
+    width: 100%;
+  }
+
+  /* The end */
+
+
+}

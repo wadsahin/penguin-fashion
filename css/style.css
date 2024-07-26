@@ -1,0 +1,186 @@
+/* Universal styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+  padding: 30px 10%;
+}
+
+section {
+  margin-top: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Shared or common styles */
+.buy-now-btn {
+  background-color: rgb(101 145 36);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
+}
+
+.buy-now-btn img {
+  width: 40px;
+}
+
+.buy-now-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 15px 0px;
+}
+
+/* all styles */
+header {
+  background-color: rgba(238, 220, 196, 0.473);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 30%;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .nav-link {
+  color: black;
+  font-weight: 600;
+  padding: 10px 25px;
+}
+
+/* hero section styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.hero-contents-column {
+  width: 50%;
+
+}
+
+.hero-title {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+.hero-title span {
+  color: orange;
+}
+
+.hero-desc {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+/* Women & Men Jacket Section styles */
+.women-jacket-section {
+  margin-bottom: 100px;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 60px;
+}
+
+.jacket-cards-container {
+  display: flex;
+  gap: 20px;
+}
+.jacket-card {
+  padding: 20px;
+  box-shadow: 5px 5px 20px rgba(201, 200, 200, 0.575);
+  border-radius: 15px;
+}
+.j-card-img {
+  padding: 15px 40px;
+  border-radius: 15px;
+  background-color: rgba(169, 169, 169, 0.253);
+}
+.card-title{
+  font-size: 1.6rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card-price-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-price{
+  font-size: 3rem;
+  font-weight: 700;
+  color: orange;
+}
+.card-btn{
+  padding: 0px 10px;
+}
+/* Services Section styles */
+.services{
+  display: flex;
+  gap: 75px;
+  align-items: center;
+  margin-top: 120px;
+}
+.services-card-column{
+  width: 45%;
+}
+.services-img-column{
+  width: 55%;
+}
+.service-card{
+  display: flex;
+  gap: 35px;
+  padding: 25px 28px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(201, 200, 200, 0.274);
+}
+.service-card img{
+  width: 80px;
+}
+.ser-card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+/* The end */
